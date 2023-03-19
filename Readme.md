@@ -34,4 +34,4 @@ poetry install
 In the notebooks directory you will find a starter notebook. For installing further packages from pypi just run `poetry add <package>`. For more information how to use poetry hava a look in the [documentation](https://python-poetry.org/docs/basic-usage/).
 
 # Last remarks
-To get a deeper understanding how to this template works and how to creat your own template vistit [algorithmgym](https://algorithmgym.notion.site/Create-a-cookie-template-54598c90e00341dca38e33b4afce84e5).
+To get a deeper understanding how this template works and how to create your own template, visit [algorithmgym](https://algorithmgym.notion.site/Create-a-cookie-template-54598c90e00341dca38e33b4afce84e5).
