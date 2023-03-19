@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "starter-cookie"
+name = "{{ cookiecutter.project }}"
 version = "0.1.0"
-description = ""
-authors = ["fabian <dev@fabiannie.haus>"]
+description = "{{ cookiecutter.description }}"
+authors = ["{{ cookiecutter.author }} <{{ cookiecutter.email }}>"]
 readme = "README.md"
-packages = [{include = "starter_cookie", from = "src"}]
+packages = [{include = "{{ cookiecutter.project }}", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -12,6 +12,7 @@ numpy = "^1.24.2"
 pandas = "^1.5.3"
 scikit-learn = "^1.2.2"
 pytest-mock = "^3.8.2"
+python-dotenv = "^1.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
