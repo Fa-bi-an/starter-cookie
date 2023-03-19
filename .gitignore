@@ -1,7 +1,13 @@
-.idea
+# OSX Junk
 .DS_Store
-**/__pycache__
-**/[v]env
-**/.[v]env
-**/.idea
-**/.pytest_cache
+
+# test cache
+.cache/*
+tests/__pycache__/*
+*.pytest_cache/
+
+# Pycharm
+.idea
+
+# VS Code
+.vscode/
