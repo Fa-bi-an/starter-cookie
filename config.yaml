@@ -1,0 +1,8 @@
+default_context:
+  author: "name"
+  email: "test@example.com"
+  project: "startercookie"
+  description: "Example for project start."
+  python_version: "3.11"
+  have_examples: "yes"
+  use_dvc: "yes"

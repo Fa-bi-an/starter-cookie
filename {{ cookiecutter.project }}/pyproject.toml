@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "starter-cookie"
+version = "0.1.0"
+description = ""
+authors = ["fabian <dev@fabiannie.haus>"]
+readme = "README.md"
+packages = [{include = "starter_cookie", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

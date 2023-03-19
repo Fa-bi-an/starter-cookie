@@ -1,0 +1,10 @@
+{
+  "author": "name",
+  "email": "test@example.com",
+  "project": "startercookie",
+  "__package_name": "{{ cookiecutter.project|lower|replace('-', '_') }}",
+  "description": "Example for project start.",
+  "python_version": ["3.11","3.10", "3.9"],
+  "use_dvc": ["yes", "no"],
+  "have_examples": ["yes","no"]
+}
