@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "{{ cookiecutter.project }}"
+name = "{{ cookiecutter.project_slug }}"
 version = "0.1.0"
 description = "{{ cookiecutter.description }}"
 authors = ["{{ cookiecutter.author }} <{{ cookiecutter.email }}>"]
 readme = "README.md"
-packages = [{include = "{{ cookiecutter.project }}", from = "src"}]
+packages = [{include = "{{ cookiecutter.project_slug }}", from = "src"}]
 
 [tool.poetry.dependencies]
 python =  "~{{ cookiecutter.python_version }}"
