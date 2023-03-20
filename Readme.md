@@ -1,5 +1,5 @@
 # Starter Cookie
-A lightweight cookiecutter template for data science projects using poetry.
+A lightweight cookiecutter template for data science projects using poetry, inspired by the awesome [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/) Project.
 
 ## Prerequisites
 In order to use this template, you need to have the following packages installed on your system:
@@ -7,6 +7,7 @@ In order to use this template, you need to have the following packages installed
 - Python
 - poetry
 - cookiecutter
+- DVC (if you wan't to use the functionality)
 
 optional:
 - Pyenv (for managing different python versions)
