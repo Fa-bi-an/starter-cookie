@@ -36,3 +36,10 @@ In the notebooks directory you will find a starter notebook. For installing furt
 
 # Last remarks
 To get a deeper understanding how this template works and how to create your own template, visit [algorithmgym](https://algorithmgym.notion.site/Create-a-cookie-template-54598c90e00341dca38e33b4afce84e5).
+
+
+# To-Do's (03/2023):
+- add post hooks to clean up
+- add .pre-commits to project
+- add DVC config
+- add example notebooks
