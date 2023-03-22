@@ -45,6 +45,6 @@ To get a deeper understanding how this template works and how to create your own
 
 
 # To-Do's (03/2023):
-- add .pre-commits to project
+- add .pre-commit hooks to project
 - add example notebooks
 - add those examples to post gen hook
