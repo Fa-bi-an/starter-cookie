@@ -1,0 +1,26 @@
+repos:
+- repo: local
+  hooks:
+  - id: black
+    name: black
+    stages: [commit]
+    language: system
+    entry: poetry run black src/ tests/ notebooks/--check
+    types: [python]
+
+  - id: mypy
+    name: mypy
+    stages: [commit]
+    language: system
+    files: ^src/
+    entry: poetry run mypy src/
+    pass_filenames: false
+    types: [python]
+    require_serial: true
+
+  - id: isort
+    name: isort
+    stages: [commit]
+    language: system
+    entry: poetry run isort src/ tests/
+    types: [python]
