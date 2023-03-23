@@ -5,6 +5,7 @@ def main() -> None:
     use_dvc = "{{ cookiecutter.use_dvc }}"
     have_examples = "{{ cookiecutter.have_examples }}"
     project = "{{ cookiecutter.project_slug }}"
+    precommit = "{{ cookiecutter.project_slug }}"
     print("********** POST GENERATION HOOK *************")
     
     if use_dvc == 'no':
@@ -12,6 +13,10 @@ def main() -> None:
         delete_entity(Path(".dvc"))
         delete_entity(Path(".dvcignore"))
         print("All DVC related files are deleted.")
+    if precommit == 'no':
+        print("Deleting pre-commit config.")
+        delete_entity(Path("pre-commit-config.yaml"))
+        print('Pre-commit config deleted.')
              
 
 def delete_entity(entity:Path()) -> None:

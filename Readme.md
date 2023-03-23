@@ -14,7 +14,7 @@ optional:
 - pipx (to install poetry & cookecutter in an isolated way)
 
 ## Installation 
-To use the cookie you need to run:
+To use the cookie you need to run the following command in your [Terminal](https://support.apple.com/de-de/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac)/ cmd:
 ```bash
 cookiecutter https://github.com/Fa-bi-an/starter-cookie.git
 ```
@@ -34,8 +34,19 @@ After creating an virtual project environment, you can now install the predefine
 ```bash
 poetry install
 ```
-### optional DVC
+## Optional configuration
+Using this cookie and enabeling the options via the setup assistant you can make use of optional components.
+
+### optional: install pre-commit git hooks
+Activate the [pre-commit hooks](https://pre-commit.com/#3-install-the-git-hook-scripts) by running the following command once:
+```bash pre-commit install
+
+```
+
+### optional: DVC
 If you are using DVC, don't forget to [add a remote storage](https://dvc.org/doc/command-reference/remote#example-add-a-default-local-remote).
+
+
 
 ## Your good to go!
 In the notebooks directory you will find a starter notebook. For installing further packages from pypi just run `poetry add <package>`. For more information how to use poetry hava a look in the [documentation](https://python-poetry.org/docs/basic-usage/).
