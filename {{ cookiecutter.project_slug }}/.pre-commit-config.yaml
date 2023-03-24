@@ -5,7 +5,7 @@ repos:
     name: black
     stages: [commit]
     language: system
-    entry: poetry run black src/ tests/ notebooks/--check
+    entry: poetry run black src/ tests/ notebooks/ --check
     types: [python]
 
   - id: mypy
