@@ -37,8 +37,11 @@ poetry install
 ## Optional configuration
 Using this cookie and enabeling the options via the setup assistant you can make use of optional components.
 
-### optional: install pre-commit git hooks
+### Install & use pre-commit git hooks
+Prerequisite to use pre-commit hooks is that you have the project git initialized with `git init`.
+
 Activate the [pre-commit hooks](https://pre-commit.com/#3-install-the-git-hook-scripts) by running the following command once:
+
 ``` bash 
 pre-commit install
 
