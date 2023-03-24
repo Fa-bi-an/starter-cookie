@@ -39,13 +39,12 @@ Using this cookie and enabeling the options via the setup assistant you can make
 
 ### optional: install pre-commit git hooks
 Activate the [pre-commit hooks](https://pre-commit.com/#3-install-the-git-hook-scripts) by running the following command once:
-```bash pre-commit install
+``` bash 
+pre-commit install
 
 ```
-
 ### optional: DVC
 If you are using DVC, don't forget to [add a remote storage](https://dvc.org/doc/command-reference/remote#example-add-a-default-local-remote).
-
 
 
 ## Your good to go!
