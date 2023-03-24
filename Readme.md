@@ -1,3 +1,4 @@
+![MIT License](https://img.shields.io/github/license/Fa-bi-an/starter-cookie) 
 # Starter Cookie
 A lightweight cookiecutter template for data science projects using poetry, inspired by the awesome [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/) Project.
 
