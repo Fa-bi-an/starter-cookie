@@ -24,6 +24,8 @@ def main() -> None:
         delete_entity(Path("models"))
         print("Models dir deleted.")
 
+    print("All done. You're good to go!")
+
 
 def delete_entity(entity: Path()) -> None:
     print(f"   {entity}")
