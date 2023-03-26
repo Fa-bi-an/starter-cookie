@@ -21,7 +21,7 @@ def main() -> None:
         print("Pre-commit config deleted.")
     if do_modelling == "no":
         print("Deleting models dir.")
-        delete_entity(Path(".models"))
+        delete_entity(Path("models"))
         print("Models dir deleted.")
 
 
