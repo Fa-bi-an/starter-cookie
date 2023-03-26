@@ -6,9 +6,8 @@ from pathlib import Path
 
 def main() -> None:
     use_dvc = "{{ cookiecutter.use_dvc }}"
-    have_examples = "{{ cookiecutter.have_examples }}"
-    project = "{{ cookiecutter.project_slug }}"
     precommit = "{{ cookiecutter.use_precommit }}"
+    do_modelling = "{{ cookiecutter.do_modelling }}"
     print("********** POST GENERATION HOOK *************")
 
     if use_dvc == "no":
@@ -20,6 +19,10 @@ def main() -> None:
         print("Deleting pre-commit config.")
         delete_entity(Path(".pre-commit-config.yaml"))
         print("Pre-commit config deleted.")
+    if do_modelling == "no":
+        print("Deleting models dir.")
+        delete_entity(Path(".models"))
+        print("Models dir deleted.")
 
 
 def delete_entity(entity: Path()) -> None:
