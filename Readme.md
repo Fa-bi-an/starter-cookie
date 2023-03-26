@@ -59,8 +59,3 @@ In the notebooks directory, you will find a starter notebook. For installing  fu
 
 # Last remarks
 To better understand how this template works and how to create your own template, visit [algorithmgym](https://algorithmgym.notion.site/Create-a-cookie-template-54598c90e00341dca38e33b4afce84e5).
-
-
-# To-Do's (03/2023):
-- add example notebooks
-- add those examples to post gen hook

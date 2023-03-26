@@ -7,6 +7,5 @@
   "python_version": ["3.11","3.10", "3.9"],
   "do_modelling":["yes", "no"],
   "use_precommit": ["yes", "no"],
-  "use_dvc": ["yes", "no"],
-  "have_examples": ["yes","no"]
+  "use_dvc": ["yes", "no"]
 }

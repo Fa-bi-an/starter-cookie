@@ -4,6 +4,6 @@ default_context:
   project: "startercookie"
   description: "Example for project start."
   python_version: "3.11"
+  do_modelling: "yes"
   use_precommit: "yes"
-  have_examples: "yes"
   use_dvc: "yes"
