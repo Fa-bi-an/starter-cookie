@@ -25,6 +25,14 @@ cookiecutter https://github.com/Fa-bi-an/starter-cookie.git
 This command downloads the cookie and starts the setup assistant.
 
 ## Usage
+### setup assistant
+The setup assistant will ask you **8 questions** that will help to configure your project. The first **two questions** are **about you**. It's about your name and email address. Your input will be inserted in the pyproject.toml.
+
+The following **three questions** are **about the project**. Here you will be asked about the project name. From this name, a project slug will be derived. This is the name of the package later on. It won't have any numbers, is only lowercase, and spaces & hyphens will be replaced by underscores.
+
+The last **four questions** are for **configurations in the project**. You will be asked about the python version you want to use (see also the section about pyenv). Furthermore, you will be asked about the usage of specific tools such as pre-commit or dvc and will create directories and config files for those tools. If you are not familiar with these tools, use option no. You will also be asked if you want to do modeling in your project. If you select yes, a modeling folder will be created, and sklearn will be installed.
+
+
 ### pyenv
 After installing and configuring the cookie, you can create the virtual environment using poetry. If you're using [pyenv](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-local) make sure to have the same version of python selected as `local` as you picked while using the setup assistant.
 
